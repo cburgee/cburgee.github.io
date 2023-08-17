@@ -2,6 +2,8 @@ import { Routes, Route } from "react-router-dom"
 import "./App.css"
 import HomePage from "./pages/HomePage"
 import NotFound from "./pages/NotFound"
+import NavBar from "./components/NavBar"
+import AboutMePage from "./pages/AboutMePage"
 
 async function getMeSomeData() {
   const dallasLatitude = 32.78
@@ -16,8 +18,10 @@ getMeSomeData()
 function App() {
   return (
     <div className="App">
+      <NavBar />
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutMePage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
