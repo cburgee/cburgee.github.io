@@ -1,4 +1,7 @@
+import { Routes, Route } from "react-router-dom"
 import "./App.css"
+import HomePage from "./pages/HomePage"
+import NotFound from "./pages/NotFound"
 
 async function getMeSomeData() {
   const dallasLatitude = 32.78
@@ -9,16 +12,14 @@ async function getMeSomeData() {
   console.log(data)
 }
 getMeSomeData()
+
 function App() {
   return (
     <div className="App">
-      {/*
-     Header display with title
-     an extra large separate card for current temp and weather conditions.
-     Outer box with to hold 7-day forecast
-     individual cards for each day laid out side-by-side to display week's forecast
-
-     */}
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
     </div>
   )
 }
