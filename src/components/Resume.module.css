@@ -1,0 +1,12 @@
+.content {
+  position: relative;
+  height: 100%;
+  width: 85%;
+}
+
+.resume {
+  position: relative;
+  height: 90vh;
+  width: 100%;
+  margin: 50px;
+}
