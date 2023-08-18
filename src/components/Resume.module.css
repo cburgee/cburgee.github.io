@@ -6,7 +6,8 @@
 
 .resume {
   position: relative;
-  height: 90vh;
-  width: 100%;
-  margin: 50px;
+  left: 15vw;
+  height: 100vh;
+  width: 70%;
+  margin: 25px;
 }

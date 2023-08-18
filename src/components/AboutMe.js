@@ -2,18 +2,17 @@ export default function AboutMe() {
   return (
     <div>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Sit amet venenatis
-        urna cursus eget. Orci porta non pulvinar neque laoreet. Quam lacus
-        suspendisse faucibus interdum posuere lorem. Amet risus nullam eget
-        felis eget. Libero justo laoreet sit amet cursus sit amet dictum. Sapien
-        nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur.
-        Porttitor leo a diam sollicitudin tempor id eu. Ultrices eros in cursus
-        turpis massa tincidunt dui ut ornare. Et pharetra pharetra massa massa
-        ultricies mi quis hendrerit. Odio tempor orci dapibus ultrices in
-        iaculis. Vulputate mi sit amet mauris commodo quis imperdiet massa
-        tincidunt. Nisi est sit amet facilisis. Pulvinar pellentesque habitant
-        morbi tristique senectus et. In fermentum et sollicitudin ac.
+        I am an enthusiastic Junior Software Developer eager to advance the
+        skills and knowledge I have obtained through my educational pursuits. I
+        possess a logical mindset, providing me a key advantage in the world of
+        software development and automation. I have used computers and
+        electronic devices for the majority of my life which sparked my interest
+        in understanding how they work on a deeper level. This, and the fact
+        that my father is a software developer, is what influenced me to direct
+        my efforts toward learning software development and DevOps. In 2020
+        after Covid-19 hit headlines, my hours were cut severely and this was
+        just the catalyst I needed to start my journey towards becoming a
+        software developer and automation engineer.
       </p>
     </div>
   )
