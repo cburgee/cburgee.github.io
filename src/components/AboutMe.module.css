@@ -1,0 +1,26 @@
+.content {
+  position: relative;
+  left: 37vw;
+  width: 25vw;
+  height: 100%;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 21px;
+  letter-spacing: 0px;
+  word-spacing: 0px;
+  color: cornflowerblue;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  background-color: #eeeeee;
+  color: #12192f;
+  border-radius: 5%;
+  padding: 3px 10px 3px 10px;
+  top: 25px;
+  border: solid 2px #12192f;
+}
+
+body {
+  background-color: #979797;
+}

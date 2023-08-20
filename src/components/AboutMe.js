@@ -1,6 +1,7 @@
+import styles from "./AboutMe.module.css"
 export default function AboutMe() {
   return (
-    <div>
+    <div className={styles.content}>
       <p>
         I am an enthusiastic Junior Software Developer eager to advance the
         skills and knowledge I have obtained through my educational pursuits. I

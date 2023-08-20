@@ -1,0 +1,10 @@
+.content {
+  width: 175px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #eeeeee;
+  border: solid 2px #12192f;
+  position: relative;
+  left: 45vw;
+  top: 25vh;
+}
