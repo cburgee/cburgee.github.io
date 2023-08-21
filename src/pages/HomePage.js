@@ -12,9 +12,9 @@ export default function HomePage() {
     const data = await response.json()
     setWeatherData(data)
   }
-  // useEffect(function () {
-  //   getMeSomeData()
-  // }, [])
+  useEffect(function () {
+    getMeSomeData()
+  }, [])
 
   return (
     <main>
