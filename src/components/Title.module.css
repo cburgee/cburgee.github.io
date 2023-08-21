@@ -1,0 +1,10 @@
+.content {
+  position: relative;
+  margin-bottom: 100px;
+  margin-top: 30px;
+  background-color: #12192f;
+  color: #d0102b;
+  left: 38vw;
+  width: 400px;
+  padding: 15px;
+}

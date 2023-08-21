@@ -1,6 +1,7 @@
 import Title from "../components/Title"
 import WeatherCardList from "../components/WeatherCardLIst"
 import { useState, useEffect } from "react"
+import ProjectsList from "../components/ProjectsList"
 
 export default function HomePage() {
   const [weatherData, setWeatherData] = useState(null)
@@ -19,6 +20,7 @@ export default function HomePage() {
   return (
     <main>
       <Title />
+      <ProjectsList />
       <WeatherCardList weatherData={weatherData} />
     </main>
   )

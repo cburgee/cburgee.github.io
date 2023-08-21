@@ -1,0 +1,27 @@
+.content {
+  position: relative;
+  width: 31vw;
+  display: flex;
+  flex-direction: column;
+  font-family: Prompt, sans-serif;
+  left: 35vw;
+}
+
+.content img {
+  position: relative;
+  height: auto;
+  width: 30vw;
+}
+
+.content hr {
+  border: solid 1px black;
+}
+
+.content p {
+  padding: auto;
+  background-color: #eeeeee;
+  color: #12192f;
+  border-radius: 7px;
+  padding: 4px;
+  border: solid 2px #12192f;
+}
